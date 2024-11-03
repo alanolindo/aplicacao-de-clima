@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicação de Clima</title>
+    <link rel="stylesheet" href="apliClima.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="form">
+
+            <i class="fa-solid fa-location-dot"></i>
+            <input id="search" type="search" placeholder="Buscar Cidade">
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+        <p class="inputError">Digite o nome da cidade</p>
+        <div>
+            <div id="cidade">
+            Brasilia
+            </div>
+            <div id="temperatura">
+                <p id="temp-value">
+                35°
+                </p>
+                <p id="temp-descricao">
+                    Ensolarado
+                </p>
+            </div>
+            <section id="info">
+            <div class="bloco-de-info">
+                <div>
+                    <i class="fa-solid fa-temperature-quarter"></i>
+                    <h2>Temp. Minima</h2>
+                    <p id="temp-min">
+                        12°
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="bloco-de-info">
+                <div>
+                    <i class="fa-solid fa-temperature-three-quarters"></i>
+                    <h2>Temp. Maxima</h2>
+                    <p id="temp-max">
+                        30°
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="bloco-de-info">
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h2>Humidade</h2>
+                    <p id="humidade">
+                        50%
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="bloco-de-info">
+                <div>
+                    <i class="fa-solid fa-wind"></i>
+                    <h2>vento</h2>
+                    <p id="vento">
+                        50 km/h
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
